@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F4507481C742256003DB388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4507471C742256003DB388 /* main.m */; };
+		8F45074B1C742256003DB388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45074A1C742256003DB388 /* AppDelegate.m */; };
+		8F45074E1C742256003DB388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45074D1C742256003DB388 /* ViewController.m */; };
+		8F4507511C742256003DB388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F45074F1C742256003DB388 /* Main.storyboard */; };
+		8F4507531C742256003DB388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4507521C742256003DB388 /* Assets.xcassets */; };
+		8F4507561C742256003DB388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4507541C742256003DB388 /* LaunchScreen.storyboard */; };
+		8F4507611C742256003DB388 /* JKYTestTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4507601C742256003DB388 /* JKYTestTabBarTests.m */; };
+		8F45076C1C742256003DB388 /* JKYTestTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45076B1C742256003DB388 /* JKYTestTabBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F45075D1C742256003DB388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F45073B1C742256003DB388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4507421C742256003DB388;
+			remoteInfo = JKYTestTabBar;
+		};
+		8F4507681C742256003DB388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F45073B1C742256003DB388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4507421C742256003DB388;
+			remoteInfo = JKYTestTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F4507431C742256003DB388 /* JKYTestTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKYTestTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4507471C742256003DB388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F4507491C742256003DB388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F45074A1C742256003DB388 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F45074C1C742256003DB388 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F45074D1C742256003DB388 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F4507501C742256003DB388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F4507521C742256003DB388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F4507551C742256003DB388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F4507571C742256003DB388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F45075C1C742256003DB388 /* JKYTestTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKYTestTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4507601C742256003DB388 /* JKYTestTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKYTestTabBarTests.m; sourceTree = "<group>"; };
+		8F4507621C742256003DB388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F4507671C742256003DB388 /* JKYTestTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKYTestTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F45076B1C742256003DB388 /* JKYTestTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKYTestTabBarUITests.m; sourceTree = "<group>"; };
+		8F45076D1C742256003DB388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F4507401C742256003DB388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4507591C742256003DB388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4507641C742256003DB388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F45073A1C742256003DB388 = {
+			isa = PBXGroup;
+			children = (
+				8F4507451C742256003DB388 /* JKYTestTabBar */,
+				8F45075F1C742256003DB388 /* JKYTestTabBarTests */,
+				8F45076A1C742256003DB388 /* JKYTestTabBarUITests */,
+				8F4507441C742256003DB388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F4507441C742256003DB388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F4507431C742256003DB388 /* JKYTestTabBar.app */,
+				8F45075C1C742256003DB388 /* JKYTestTabBarTests.xctest */,
+				8F4507671C742256003DB388 /* JKYTestTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F4507451C742256003DB388 /* JKYTestTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8F4507491C742256003DB388 /* AppDelegate.h */,
+				8F45074A1C742256003DB388 /* AppDelegate.m */,
+				8F45074C1C742256003DB388 /* ViewController.h */,
+				8F45074D1C742256003DB388 /* ViewController.m */,
+				8F45074F1C742256003DB388 /* Main.storyboard */,
+				8F4507521C742256003DB388 /* Assets.xcassets */,
+				8F4507541C742256003DB388 /* LaunchScreen.storyboard */,
+				8F4507571C742256003DB388 /* Info.plist */,
+				8F4507461C742256003DB388 /* Supporting Files */,
+			);
+			path = JKYTestTabBar;
+			sourceTree = "<group>";
+		};
+		8F4507461C742256003DB388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F4507471C742256003DB388 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F45075F1C742256003DB388 /* JKYTestTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F4507601C742256003DB388 /* JKYTestTabBarTests.m */,
+				8F4507621C742256003DB388 /* Info.plist */,
+			);
+			path = JKYTestTabBarTests;
+			sourceTree = "<group>";
+		};
+		8F45076A1C742256003DB388 /* JKYTestTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F45076B1C742256003DB388 /* JKYTestTabBarUITests.m */,
+				8F45076D1C742256003DB388 /* Info.plist */,
+			);
+			path = JKYTestTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F4507421C742256003DB388 /* JKYTestTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4507701C742256003DB388 /* Build configuration list for PBXNativeTarget "JKYTestTabBar" */;
+			buildPhases = (
+				8F45073F1C742256003DB388 /* Sources */,
+				8F4507401C742256003DB388 /* Frameworks */,
+				8F4507411C742256003DB388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKYTestTabBar;
+			productName = JKYTestTabBar;
+			productReference = 8F4507431C742256003DB388 /* JKYTestTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F45075B1C742256003DB388 /* JKYTestTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4507731C742256003DB388 /* Build configuration list for PBXNativeTarget "JKYTestTabBarTests" */;
+			buildPhases = (
+				8F4507581C742256003DB388 /* Sources */,
+				8F4507591C742256003DB388 /* Frameworks */,
+				8F45075A1C742256003DB388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F45075E1C742256003DB388 /* PBXTargetDependency */,
+			);
+			name = JKYTestTabBarTests;
+			productName = JKYTestTabBarTests;
+			productReference = 8F45075C1C742256003DB388 /* JKYTestTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F4507661C742256003DB388 /* JKYTestTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4507761C742256003DB388 /* Build configuration list for PBXNativeTarget "JKYTestTabBarUITests" */;
+			buildPhases = (
+				8F4507631C742256003DB388 /* Sources */,
+				8F4507641C742256003DB388 /* Frameworks */,
+				8F4507651C742256003DB388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F4507691C742256003DB388 /* PBXTargetDependency */,
+			);
+			name = JKYTestTabBarUITests;
+			productName = JKYTestTabBarUITests;
+			productReference = 8F4507671C742256003DB388 /* JKYTestTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F45073B1C742256003DB388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PingAn;
+				TargetAttributes = {
+					8F4507421C742256003DB388 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8F45075B1C742256003DB388 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8F4507421C742256003DB388;
+					};
+					8F4507661C742256003DB388 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8F4507421C742256003DB388;
+					};
+				};
+			};
+			buildConfigurationList = 8F45073E1C742256003DB388 /* Build configuration list for PBXProject "JKYTestTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F45073A1C742256003DB388;
+			productRefGroup = 8F4507441C742256003DB388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F4507421C742256003DB388 /* JKYTestTabBar */,
+				8F45075B1C742256003DB388 /* JKYTestTabBarTests */,
+				8F4507661C742256003DB388 /* JKYTestTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F4507411C742256003DB388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4507561C742256003DB388 /* LaunchScreen.storyboard in Resources */,
+				8F4507531C742256003DB388 /* Assets.xcassets in Resources */,
+				8F4507511C742256003DB388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F45075A1C742256003DB388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4507651C742256003DB388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F45073F1C742256003DB388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F45074E1C742256003DB388 /* ViewController.m in Sources */,
+				8F45074B1C742256003DB388 /* AppDelegate.m in Sources */,
+				8F4507481C742256003DB388 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4507581C742256003DB388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4507611C742256003DB388 /* JKYTestTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4507631C742256003DB388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F45076C1C742256003DB388 /* JKYTestTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F45075E1C742256003DB388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F4507421C742256003DB388 /* JKYTestTabBar */;
+			targetProxy = 8F45075D1C742256003DB388 /* PBXContainerItemProxy */;
+		};
+		8F4507691C742256003DB388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F4507421C742256003DB388 /* JKYTestTabBar */;
+			targetProxy = 8F4507681C742256003DB388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F45074F1C742256003DB388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F4507501C742256003DB388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F4507541C742256003DB388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F4507551C742256003DB388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F45076E1C742256003DB388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F45076F1C742256003DB388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F4507711C742256003DB388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKYTestTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.JKYTestTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F4507721C742256003DB388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKYTestTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.JKYTestTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F4507741C742256003DB388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKYTestTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.JKYTestTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKYTestTabBar.app/JKYTestTabBar";
+			};
+			name = Debug;
+		};
+		8F4507751C742256003DB388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKYTestTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.JKYTestTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKYTestTabBar.app/JKYTestTabBar";
+			};
+			name = Release;
+		};
+		8F4507771C742256003DB388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKYTestTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.JKYTestTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKYTestTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8F4507781C742256003DB388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKYTestTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.JKYTestTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKYTestTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F45073E1C742256003DB388 /* Build configuration list for PBXProject "JKYTestTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F45076E1C742256003DB388 /* Debug */,
+				8F45076F1C742256003DB388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F4507701C742256003DB388 /* Build configuration list for PBXNativeTarget "JKYTestTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4507711C742256003DB388 /* Debug */,
+				8F4507721C742256003DB388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F4507731C742256003DB388 /* Build configuration list for PBXNativeTarget "JKYTestTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4507741C742256003DB388 /* Debug */,
+				8F4507751C742256003DB388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F4507761C742256003DB388 /* Build configuration list for PBXNativeTarget "JKYTestTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4507771C742256003DB388 /* Debug */,
+				8F4507781C742256003DB388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F45073B1C742256003DB388 /* Project object */;
+}
