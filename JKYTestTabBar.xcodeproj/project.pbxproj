@@ -15,6 +15,12 @@
 		8F4507561C742256003DB388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4507541C742256003DB388 /* LaunchScreen.storyboard */; };
 		8F4507611C742256003DB388 /* JKYTestTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4507601C742256003DB388 /* JKYTestTabBarTests.m */; };
 		8F45076C1C742256003DB388 /* JKYTestTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45076B1C742256003DB388 /* JKYTestTabBarUITests.m */; };
+		8F4507841C74226A003DB388 /* JKYCenterPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45077B1C74226A003DB388 /* JKYCenterPopView.m */; };
+		8F4507851C74226A003DB388 /* JKYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45077E1C74226A003DB388 /* JKYTabBar.m */; };
+		8F4507861C74226A003DB388 /* JKYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4507801C74226A003DB388 /* JKYTabBarController.m */; };
+		8F4507871C74226A003DB388 /* JKYTabbarItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4507811C74226A003DB388 /* JKYTabbarItem.plist */; };
+		8F4507881C74226A003DB388 /* UIColor+HexValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4507831C74226A003DB388 /* UIColor+HexValue.m */; };
+		8F45078B1C7422BC003DB388 /* TestNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45078A1C7422BC003DB388 /* TestNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		8F4507671C742256003DB388 /* JKYTestTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKYTestTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F45076B1C742256003DB388 /* JKYTestTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKYTestTabBarUITests.m; sourceTree = "<group>"; };
 		8F45076D1C742256003DB388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F45077A1C74226A003DB388 /* JKYCenterPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYCenterPopView.h; sourceTree = "<group>"; };
+		8F45077B1C74226A003DB388 /* JKYCenterPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYCenterPopView.m; sourceTree = "<group>"; };
+		8F45077C1C74226A003DB388 /* JKYConfigMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYConfigMarco.h; sourceTree = "<group>"; };
+		8F45077D1C74226A003DB388 /* JKYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYTabBar.h; sourceTree = "<group>"; };
+		8F45077E1C74226A003DB388 /* JKYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTabBar.m; sourceTree = "<group>"; };
+		8F45077F1C74226A003DB388 /* JKYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYTabBarController.h; sourceTree = "<group>"; };
+		8F4507801C74226A003DB388 /* JKYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTabBarController.m; sourceTree = "<group>"; };
+		8F4507811C74226A003DB388 /* JKYTabbarItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JKYTabbarItem.plist; sourceTree = "<group>"; };
+		8F4507821C74226A003DB388 /* UIColor+HexValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexValue.h"; sourceTree = "<group>"; };
+		8F4507831C74226A003DB388 /* UIColor+HexValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexValue.m"; sourceTree = "<group>"; };
+		8F4507891C7422BC003DB388 /* TestNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNavigationController.h; sourceTree = "<group>"; };
+		8F45078A1C7422BC003DB388 /* TestNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,13 @@
 		8F4507451C742256003DB388 /* JKYTestTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				8F4507791C74226A003DB388 /* JKYTabBarController */,
 				8F4507491C742256003DB388 /* AppDelegate.h */,
 				8F45074A1C742256003DB388 /* AppDelegate.m */,
 				8F45074C1C742256003DB388 /* ViewController.h */,
 				8F45074D1C742256003DB388 /* ViewController.m */,
+				8F4507891C7422BC003DB388 /* TestNavigationController.h */,
+				8F45078A1C7422BC003DB388 /* TestNavigationController.m */,
 				8F45074F1C742256003DB388 /* Main.storyboard */,
 				8F4507521C742256003DB388 /* Assets.xcassets */,
 				8F4507541C742256003DB388 /* LaunchScreen.storyboard */,
@@ -138,6 +159,23 @@
 				8F45076D1C742256003DB388 /* Info.plist */,
 			);
 			path = JKYTestTabBarUITests;
+			sourceTree = "<group>";
+		};
+		8F4507791C74226A003DB388 /* JKYTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8F45077A1C74226A003DB388 /* JKYCenterPopView.h */,
+				8F45077B1C74226A003DB388 /* JKYCenterPopView.m */,
+				8F45077C1C74226A003DB388 /* JKYConfigMarco.h */,
+				8F45077D1C74226A003DB388 /* JKYTabBar.h */,
+				8F45077E1C74226A003DB388 /* JKYTabBar.m */,
+				8F45077F1C74226A003DB388 /* JKYTabBarController.h */,
+				8F4507801C74226A003DB388 /* JKYTabBarController.m */,
+				8F4507811C74226A003DB388 /* JKYTabbarItem.plist */,
+				8F4507821C74226A003DB388 /* UIColor+HexValue.h */,
+				8F4507831C74226A003DB388 /* UIColor+HexValue.m */,
+			);
+			path = JKYTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +283,7 @@
 			files = (
 				8F4507561C742256003DB388 /* LaunchScreen.storyboard in Resources */,
 				8F4507531C742256003DB388 /* Assets.xcassets in Resources */,
+				8F4507871C74226A003DB388 /* JKYTabbarItem.plist in Resources */,
 				8F4507511C742256003DB388 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4507861C74226A003DB388 /* JKYTabBarController.m in Sources */,
+				8F45078B1C7422BC003DB388 /* TestNavigationController.m in Sources */,
+				8F4507851C74226A003DB388 /* JKYTabBar.m in Sources */,
 				8F45074E1C742256003DB388 /* ViewController.m in Sources */,
 				8F45074B1C742256003DB388 /* AppDelegate.m in Sources */,
+				8F4507841C74226A003DB388 /* JKYCenterPopView.m in Sources */,
+				8F4507881C74226A003DB388 /* UIColor+HexValue.m in Sources */,
 				8F4507481C742256003DB388 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JKYTestTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.JKYTestTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JKYTestTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.JKYTestTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";

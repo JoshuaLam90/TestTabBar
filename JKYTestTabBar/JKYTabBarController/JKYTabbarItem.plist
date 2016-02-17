@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>navClassName</key>
+		<string>TestNavigationController</string>
+		<key>className</key>
+		<string>UIViewController</string>
+		<key>title</key>
+		<string>测试01</string>
+		<key>normalImage</key>
+		<string>tab_newHome_unselect</string>
+		<key>selectedImage</key>
+		<string>tab_newHome_selected</string>
+	</dict>
+	<dict>
+		<key>navClassName</key>
+		<string>TestNavigationController</string>
+		<key>className</key>
+		<string>UIViewController</string>
+		<key>title</key>
+		<string>测试02</string>
+		<key>normalImage</key>
+		<string>tab_newMy_unselected</string>
+		<key>selectedImage</key>
+		<string>tab_newMy_selected</string>
+	</dict>
+	<dict>
+		<key>navClassName</key>
+		<string>TestNavigationController</string>
+		<key>className</key>
+		<string>UIViewController</string>
+		<key>title</key>
+		<string>测试03</string>
+		<key>normalImage</key>
+		<string>tab_newService_unselect</string>
+		<key>selectedImage</key>
+		<string>tab_newService_selected</string>
+	</dict>
+	<dict>
+		<key>navClassName</key>
+		<string>TestNavigationController</string>
+		<key>className</key>
+		<string>UIViewController</string>
+		<key>title</key>
+		<string>测试04</string>
+		<key>normalImage</key>
+		<string>tab_newWelfare_unselected</string>
+		<key>selectedImage</key>
+		<string>tab_newWelfare_selected</string>
+	</dict>
+</array>
+</plist>
